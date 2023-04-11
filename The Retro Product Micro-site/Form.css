@@ -1,0 +1,193 @@
+/*  Nicolas Millan
+    HTML,CSS - Assignment #3 The Movie Poster
+    03/25/2023
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*CSS for the Header */
+header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    height: 100%;
+    width: 100px;
+}
+.header_left{
+    display: flex;
+}
+.nav_links{
+    display: flex;
+    color: black;
+    padding: 30px 30px;
+}
+nav > ul > li a {
+    padding-right: 20px;
+    font-family: 'Alkatra', cursive;
+    color: black    
+}
+.ContactBtn button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15%;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    background-color: black;
+}
+
+/*CSS for the Body*/
+body{
+    background-color: white;
+    text-align: center;
+}
+form{
+    margin: 5%;
+    margin-left: 25%;
+    padding: 5%;
+    height: fit-content;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    font-family:monospace;
+}
+/*Full name*/
+.F-Name{
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 5px;
+}
+.F-Name2{
+    display: grid;
+    text-align: left;
+    padding-bottom: 1%;
+}
+.F-Name2 .Blanked{
+    height: 25px;
+    margin-right: 1%;
+}
+.F-Name3{
+    display: grid;
+    text-align: left;
+    padding-bottom: 1%;
+}
+.F-Name3 .Blanked{
+    height: 25px;
+    margin-left: 1%;
+}
+/*Address*/
+.Address{
+    display: grid;
+    font-size: 25px;
+}
+.Address .Blanked{
+    height: 25px;
+}
+/*City & Province/State*/
+City-Province {
+    font-size: 25px;
+    display: flex;
+    gap: 2%;
+}
+.City-Province .Blanked1{
+    text-align: left;
+    padding-bottom: 1%;
+    height: 25px;
+    width: 310px;
+    margin: 1px;
+}
+.City-Province .Blanked2{
+    padding-bottom: 1%;
+    height: 25px;
+    width: max-content;
+    margin: 1px;
+}
+/*Phone Number*/
+.PhoneNumber{
+    display: grid;
+    text-align: left;
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+.PhoneNumber .Blanked{
+    height: 25px;
+}
+/*E-mail*/
+.E-mail{
+    display: grid;
+    text-align: left;
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+.E-mail .Blanked{
+    height: 25px;
+}
+/*Date of Birth*/
+.DateofBirth{
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+.DateofBirth .Blanked{
+    height: 25px;
+}
+/*Card Payment*/
+h1{
+    font-size: 50px;
+}
+.CardPayment{
+    display: grid;
+    text-align: left;
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+.CardPayment .Blanked{
+    height: 25px;
+}
+/*Exp-Date*/
+.ED-SC{
+    padding-bottom: 1%;
+    font-size: 18px;
+}
+.ED-SC .Blanked{
+    height: 20%;
+}
+.ED-SC .Blanked3{
+    width: 10%;
+}
+.SubmitBTN{
+    margin-top: 5%;
+    font-size: 15px;
+    padding: 3%;
+    color: black;
+    background-color: white;
+    border-radius: 3%;
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    gap: 10px;
+    border: solid 10px white;
+}
+footer .P1{
+    margin: 2%;
+    text-align: center;
+}
+.AboutF{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+footer .P2{
+    padding: 2%;
+}

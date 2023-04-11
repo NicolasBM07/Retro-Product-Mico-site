@@ -1,0 +1,131 @@
+/*  Nicolas Millan
+    HTML,CSS - Assigment #3 The Movie Poster
+    03/25/2023
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*CSS for the Header */
+header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    height: 100%;
+    width: 100px;
+}
+.header_left{
+    display: flex;
+}
+.nav_links{
+    display: flex;
+    color: black;
+    padding: 30px 30px;
+}
+nav > ul > li a {
+    padding-right: 20px;
+    font-family: 'Alkatra', cursive;
+    color: black    
+}
+.ContactBtn button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15%;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    background-color: black;
+    /*display: flex;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    flex-direction: column;
+    border: solid 5px rgb(128, 128, 128);
+    */
+}
+
+/*CSS for the Body*/
+body{
+    background-color: black;
+}
+h1{
+    padding: 2%;
+    position: center;
+}
+.First_Text{
+    display: grid;
+    padding: 8%;
+    color: white;
+}
+.Center_Image{
+    border : solid 10px #fff;
+    margin-left: 60%;
+    width: 30%;
+    height: 30%;    
+}
+/*CSS for the product in the main page*/
+.Product{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1px 1fr;
+    grid-gap: 15%   ;
+    align-items: center;
+}
+.Product div{
+    left: 30px;
+    color: white;
+}
+.Product h2{
+    font-size: 6vh;
+    font-family: 'Kanit', sans-serif;
+    width: 50vh;
+    margin-left: 4vh;
+}
+.Product p{
+    width: 50vh;
+    margin-left: 2vh;
+}
+.Product button{
+    width: 25vh;
+    margin-left: 15vh;
+    margin-top: 5vh;
+    position: center;
+    padding: 2%;
+    border-radius: 2%;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    display: inline-block;
+    font-size: 22px;
+}
+.Product a img{
+    margin-left: 25%;
+    height: 50vh;
+    border-radius: 5%;
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    gap: 10px;
+    border: solid 10px white;
+}
+footer .P1{
+    margin: 2%;
+    text-align: center;
+}
+.AboutF{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+footer .P2{
+    padding: 2%;
+}

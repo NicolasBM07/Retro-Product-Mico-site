@@ -1,0 +1,102 @@
+/*  Nicolas Millan
+    HTML,CSS - Assigment #3 The Movie Poster
+    03/25/2023
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*CSS for the Header */
+header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+    height: 100%;
+    width: 100px;
+}
+.header_left{
+    display: flex;
+}
+.nav_links{
+    display: flex;
+    color: black;
+    padding: 30px 30px;
+}
+nav > ul > li a {
+    padding-right: 20px;
+    font-family: 'Alkatra', cursive;
+    color: black    
+}
+.ContactBtn button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15%;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    background-color: black;
+}
+/*Body Configuration*/
+body{
+    background-image: url(img/AlecanderHome.jpg);
+}
+.Contact-inf{
+    display: flex;
+    column-gap: 12%;
+    padding: 15%;
+    align-items: center;
+}
+.location{
+    border: none;
+    margin: none;
+    text-align: center;  
+}
+.location img{
+    height: 200px;
+    width: 200px;
+}
+.phone{
+    border: none;
+    margin: none;
+    text-align: center; 
+}
+.phone img{
+    height: 200px;
+    width: 200px;
+}
+.e-mail{
+    border: none;
+    margin: none;
+    text-align: center; 
+}
+.e-mail img{
+    height: 140px;
+    width: 200px;
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    gap: 10px;
+    border: solid 10px white;
+}
+footer .P1{
+    margin: 2%;
+    text-align: center;
+}
+.AboutF{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+footer .P2{
+    padding: 2%;
+}

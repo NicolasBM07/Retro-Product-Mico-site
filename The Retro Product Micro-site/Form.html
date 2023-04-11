@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<!--
+    Nicolas Millan St.200533728
+    HTML Assignment #The Retro Product Micro-site
+    01/06/2023
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    
+    <title>The Retro Product Micro-site</title>
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Kanit&display=swap" rel="stylesheet">
+
+    <!--Connecting the HTML with the CSS-->
+    <link rel="stylesheet" href="./Form.css">
+</head>
+
+<script type="module" src="Header.js"></script>
+<my-header></my-header>
+
+<body>
+    
+  <form>
+    <!--Full name-->
+    <div class="F-Name">
+      <div class="F-Name2">
+        <label for="F-Name">First Name</label>
+        <br>
+        <input type="text" class="Blanked" id="F-Name" name="F-Name" placeholder="Alexander" required>
+      </div>
+      <div class="F-Name3">
+        <label for="F-Name">Last Name</label>
+        <br>
+        <input type="text" class="Blanked" id="F-Name" name="F-Name" placeholder="Graham Bell" required>
+      </div>
+    </div>
+    <br>
+    <!--Address-->
+    <div class="Address">
+        <label for="Address">Address</label>
+        <br>
+        <input type="text" class="Blanked" id="Address" name="Address" required>
+    </div>
+    <br>
+    <!--City & Province/State-->
+    <div class="City-Province">
+        <label for="City"></label>
+        <input type="text" class="Blanked1" id="City" name="City" placeholder="City" required>
+        <label for="Address"></label>
+        <input type="text" class="Blanked2" id="Address" name="Address" placeholder="Province/State" required>
+    </div>
+    <br>
+    <!--Phone Number-->
+    <div class="PhoneNumber">
+        <label for="PhoneNumber">Phone Number</label>
+        <input type="tel" class="Blanked" id="PhoneNumber" name="PhoneNumber" placeholder="(000)-000-0000" required>
+    </div>
+    <br>
+    <!--E-mail-->
+    <div class="E-mail">
+        <label for="E-Mail">E-Mail</label>
+        <input type="tel" class="Blanked" id="E-Mail" name="E-Mail" placeholder="Bell_Telephone_Company@e-mail.com">
+    </div>
+    <br>
+    <!--Date of Birth-->
+    <div class="DateofBirth">
+        <label for="Date of Birth">Date of Birth</label>
+        <input type="date"  class="Blanked"id="Date of Birth" name="Date of Birth" min="00/00/1955" max="00/00/2024">
+    </div>
+    <br>
+    <!--Card Payment-->
+    <h1>---Card Payment---</h1>
+    <br>
+    <div class="CardPayment">
+        <label for="Card-Number" name="Card-Number">Card Number</label>
+        <input type="tel" class="Blanked" id="Card-Number" name="Card-Number">
+    </div>
+    <br>
+    <!--Exp-Date-->
+    <div class="ED-SC">
+        <label for="Exp-Date">Expiry Date</label>
+        <select class="Blanked" name='Exp-Date' id='Exp-Date'>
+            <option value=''>Month</option>
+            <option value='01'>January</option>
+            <option value='02'>February</option>
+            <option value='03'>March</option>
+            <option value='04'>April</option>
+            <option value='05'>May</option>
+            <option value='06'>June</option>
+            <option value='07'>July</option>
+            <option value='08'>August</option>
+            <option value='09'>September</option>
+            <option value='10'>October</option>
+            <option value='11'>November</option>
+            <option value='12'>December</option>
+        </select> 
+        <select class="Blanked2" name='expireYY' id='expireYY'>
+            <option value=''>Year</option>
+            <option value='23'>2023</option>
+            <option value='24'>2024</option>
+            <option value='25'>2025</option>
+            <option value='26'>2026</option>
+            <option value='27'>2027</option>
+        </select> 
+        <label for="SecurityCode" name="SecurityCode">SecurityCode</label>
+        <input type="tel" class="Blanked3" id="SecurityCode" name="SecurityCode">
+    </div>
+    <br>
+    <!--Submit-Button-->
+    <input class="SubmitBTN" type="submit" name="SubmitBTN">
+  </form>
+
+</body>
+<my-footer></my-footer>
+</html>

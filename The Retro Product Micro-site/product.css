@@ -1,0 +1,123 @@
+/*  Nicolas Millan
+    HTML,CSS - Assigment #3 The Movie Poster
+    03/25/2023
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/*CSS for the Header */
+header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100%;
+    width: 100px;
+}
+.header_left{
+    display: flex;
+}
+.nav_links{
+    display: flex;
+    color: black;
+    padding: 30px 30px;
+}
+nav > ul > li a {
+    padding-right: 20px;
+    font-family: 'Alkatra', cursive;
+    color: black    
+}
+.ContactBtn button {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15%;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    background-color: black;
+    /*display: flex;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    flex-direction: column;*/
+}
+/*Body Configuration with CSS*/
+.logo{
+    width: 120px;
+    cursor: pointer;
+    border: solid 1px white;
+}
+.row{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.col-1, .col-2{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.col-2{
+    background-color: white;
+}
+.col-1{
+    padding-left: 8%;
+    color: white;
+}
+.col-1 h1{
+    margin-top: 5%;
+    font-size: 10vh;
+    line-height: 100%;
+    margin-bottom: 2%;
+    color: white;
+}
+.col-1 h2{
+    font-size: large;
+    margin-top: 15%;
+    font-weight: 500;
+    color: white;
+}
+button{
+    display: inline-block;
+    padding: 2%;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 2%;
+    cursor: pointer;
+    border-radius: 12%;
+}
+.feature-img{
+    width: 100%;
+    padding: 2%;
+    text-align: center;
+}
+/*Footer*/
+footer{
+    background-color: black;
+    color: white;
+    display: grid;
+    gap: 10px;
+    border: solid 10px white;
+}
+footer .P1{
+    margin: 2%;
+    text-align: center;
+}
+.AboutF{
+    margin-left: 45%;
+    margin-right: 45%;
+}
+footer .P2{
+    padding: 2%;
+}
